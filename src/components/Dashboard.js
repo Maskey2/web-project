@@ -6,20 +6,30 @@ import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 import { Container } from '@material-ui/core';
+import Particle from './Particle';
 
 
 
 const useStyles = makeStyles((theme) => ({
-
-
-}));
+card: {  
+  height:'200px', 
+  display:'flex', 
+  alignItems:'center', 
+  justifyContent:'center', 
+  verticalAlign:'middle',
+  '&:hover': {
+    transform:'scale(1.1)',
+    transition: 'transform .4s ease-in-out',
+    
+}
+}}));
 
 const cards = [
     {
       id: 1,
       src: "https://source.unsplash.com/random",
       backsrc: "https://media2.giphy.com/media/Dr1ZZREmna8lTAmVwM/giphy.gif",
-      title: "About Me",
+      title: "About ",
       link: "/about",
       color: "#2ec4b6",
     },
@@ -74,13 +84,15 @@ export default function Pricing() {
   const classes = useStyles();
 
   return (
-    <div className="dashboard" >    
+    <div className="dashboard" >  
+    
       <Container>
+        
         <Grid container spacing={5} >
           {cards.map((card) => (        
             <Grid item key={card.id} xs={6} sm={6} md={4} >
                   <Link to={card.link} style={{textDecoration:'none'}}>
-              <Card style={{backgroundColor: card.color, height:'200px', display:'flex', alignItems:'center', justifyContent:'center', verticalAlign:'middle'}}>               
+              <Card className={classes.card} style={{ backgroundColor: card.color}}>               
                 <CardContent style={{color:'white'}}>                
                     {card.title}                  
                 </CardContent>

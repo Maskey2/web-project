@@ -13,6 +13,7 @@ import Portfolio from './components/Portfolio'
 import Skills from './components/Skills'
 import Work from './components/Work'
 import Dashboard from "./components/Dashboard";
+import Particle from "./components/Particle";
 
 export default function App() {
   return (
@@ -20,7 +21,7 @@ export default function App() {
       <div>
         <Switch>
         <Route path="/dashboard">  <Dashboard />    </Route>
-        <Route path="/work">  <Work />    </Route>
+        <Route path="/workhistory">  <Work />    </Route>
         <Route path="/portfolio">  <Portfolio />    </Route>
         <Route path="/hobbies">  <Hobbies />    </Route>
         <Route path="/skills">  <Skills />    </Route>

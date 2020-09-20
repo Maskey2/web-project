@@ -1,3 +1,17 @@
+h1,h2,h4,h3,h5,p,div,li {
+  font-family: 'Dosis', sans-serif;
+}
+p{
+  font-size: 18px;
+}
+.fontd{
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  margin:'0px'
+}
+.fontd:hover {
+  color:yellow;
+}
 .home{
   background-color: black;
   height: 100vh;
@@ -14,6 +28,7 @@
   color:white
 }
 .dashboard{
+  background-image: url('https://i.ytimg.com/vi/t0kGRcd-IFY/maxresdefault.jpg');
   min-height: 100vh;
   background-color: black;
   display: flex;
@@ -23,4 +38,13 @@
   font-size: 30px;
   color:white;
   text-decoration: none;
+}
+.shadow{
+  -webkit-box-shadow: 7px 6px 19px -4px rgba(122,116,122,1);
+-moz-box-shadow: 7px 6px 19px -4px rgba(122,116,122,1);
+box-shadow: 7px 6px 19px -4px rgba(122,116,122,1);
+}
+.skill-img {
+  height:120px;
+ 
 }

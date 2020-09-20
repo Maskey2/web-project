@@ -2,10 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './../App.css'
 import Dashboard from './Dashboard'
+import Particle from './Particle';
 
 export default function Home() {
     return (
         <div className="home">
+         <Particle/>
             <Link to="/dashboard" className="top">[Skip]</Link>
             <div id="knock"
               className="animate__animated animate__lightSpeedInLeft  "
