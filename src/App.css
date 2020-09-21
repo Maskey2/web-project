@@ -46,5 +46,11 @@ box-shadow: 7px 6px 19px -4px rgba(122,116,122,1);
 }
 .skill-img {
   height:120px;
- 
+}
+
+@media only screen and (max-width: 600px) {
+  .skill-img {
+    height:100px;
+  }
+  
 }
