@@ -140,7 +140,7 @@ export default function Album() {
               />>
           </Grid>
           </Grid>
-          <h1 style={{ textAlign: 'center' }}>Certifications</h1>
+          {/* <h1 style={{ textAlign: 'center' }}>Certifications</h1>
           <Grid container spacing={4} >
             <Grid item xs={6} sm={6} md={6} lg={6} align="center">
               <Zoom><img className=" animate__animated animate__jackInTheBox"
@@ -153,7 +153,7 @@ export default function Album() {
                   alt="leadership"
                 /></Zoom>
             </Grid>
-          </Grid>
+          </Grid> */}
         </Container>
       </main>
       <Footer />
