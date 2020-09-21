@@ -5,6 +5,10 @@ import Container from "@material-ui/core/Container";
 import Navbar from './Navbar'
 import Footer from "./Footer";
 import Particle from "./Particle";
+import cer from './../assets/responsive.png'
+import cer2 from './../assets/gd.jpg'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const useStyles = makeStyles((theme) => ({
   cardGrid: {
@@ -129,10 +133,25 @@ export default function Album() {
 
             </Grid>
             <Grid item xs={6} sm={6} md={4} lg={3} align="center">
+
               <img className="skill-img animate__animated animate__jackInTheBox"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjFBi6UHNBVzafID6sc5dV8wIozs9_1kz8eg&usqp=CAUg"
                 alt="leadership"
-              />
+              />>
+          </Grid>
+          </Grid>
+          <h1 style={{ textAlign: 'center' }}>Certifications</h1>
+          <Grid container spacing={4} >
+            <Grid item xs={6} sm={6} md={6} lg={6} align="center">
+              <Zoom><img className=" animate__animated animate__jackInTheBox"
+                src={cer} style={{ maxWidth: '100%' }} /></Zoom>
+            </Grid>
+            <Grid item xs={6} sm={6} md={6} lg={6} align="center" justify="center">
+              <Zoom>
+                <img className=" animate__animated animate__jackInTheBox"
+                  src={cer2} style={{ maxWidth: '50%', textAlign: 'center' }}
+                  alt="leadership"
+                /></Zoom>
             </Grid>
           </Grid>
         </Container>
