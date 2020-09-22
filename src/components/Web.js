@@ -23,25 +23,11 @@ export default function Web() {
     return (
         <div>
             <Container className={classes.cardGrid} maxWidth="lg">
-                <Grid container spacing={4}>
-                    <Grid item xs={12} sm={4} md={6} lg={6} className="animate__animated animate__jackInTheBox" >
-                        <br />
-                        <a href="https://sldrigging.com/" target="_blank">Sea-Land Distributors Website
-                    <img id="myImg" src={sea} alt="Snow" className={classes.web} /></a>
-                        <h4>React SPA with Material UI Framework</h4>
 
-                    </Grid>
-                    <Grid item xs={12} sm={4} md={6} lg={6} className="animate__animated animate__jackInTheBox" >
-                        <br />
-                        <a href="https://thortex.onrender.com/onlinecerts" target="_blank">Thor-Tex Website</a>
-                        <img id="myImg" src={thor} alt="Snow" className={classes.web} />
-                        <h4>Certificate Database Print and Save as PDF</h4>
-                    </Grid>
-                </Grid>
                 <p>
-                    <a href="https://www.wit-selu.com/" target="_blank">Women in Technology
+                    <a href="https://www.wit-selu.com/" target="_blank" style={{ textAlign: 'center', fontSize: '30px' }}>Women in Technology
                     <img id="myImg" src={wit} alt="Snow" className={classes.web} /></a>
-                    <h4>Women in Technology website for Southeastern LA University.</h4>
+                    <h3 style={{ textAlign: 'center' }}>Women in Technology website for Southeastern LA University.</h3>
 
                 </p>
 
@@ -53,7 +39,7 @@ export default function Web() {
                             <ul><li>'Lions Feed' is built in MVC - ASP.Net Core 2.0 environment using Visual Studio 2017.</li>                        <li> Lion's Feed is a platform for Southeastern Louisiana University students to share their creativity via posts which includes texts and images.</li>
                                 <li>It is a social networking website for students with the functionality of Home, User Profile, activities such as like, comments, etc.</li>
                             </ul>
-                            <br /><br />
+                            <br />
                             <img id="myImg" src="https://drive.google.com/uc?id=1nvPVfh3VptldCGoLhkzWWSwNTtfGdPmD" alt="Snow" className={classes.web} />
                         </div>
                     </Grid>

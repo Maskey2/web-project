@@ -9,19 +9,20 @@ import Particle from './Particle'
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
-  jobimg: {   
+  jobimg: {
     height: "50px",
-    margin:'12px',
+    margin: '12px',
     [theme.breakpoints.down("sm")]: {
-      display:'none'
-    },}
-  }));
+      display: 'none'
+    },
+  }
+}));
 export default function Work() {
   const classes = useStyles();
   return (
     <div>
       <Navbar />
-      <Particle/>
+      <Particle />
       <Timeline lineColor={"#ddd"}>
         <TimelineItem style={{ color: "#04192c" }}
           key="001"
@@ -40,26 +41,13 @@ export default function Work() {
           <h4>Front End Developer</h4>
           <p>
             <h5>My Work:</h5>
-            <ul style={{listStyleType: 'square'}}>
+            <ul style={{ listStyleType: 'square' }}>
               <li>
-                <a href="http://sldrigging.com/" target="_blank" rel="noopener noreferrer">
-                  Sea-Land Distributor's website
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://thortex.onrender.com/onlinecerts"
-                  target="_blank" rel="noopener noreferrer"
-                >
-                  Certificate Database Project
-                </a>
-              </li>
-              <li>
-                Building Monorepo architecture SPAs brand websites using
+                Building Monorepo architecture SPAs brand <a href="http://sldrigging.com/" target="_blank" >websites </a> using
                 React JS and Material UI Framework focusing on latest web
                 development trends, search engine optimized responsive websites
               </li>
-            
+              <li>Maintaining e-commerce website using 3DCart CMS, assisting in Theme Management, Bootstrap as CSS Framework.</li>
               <li>Assisting in Digital Marketing tasks like email marketing, using technology like Google Analytics (UA) and Google Tag Manager</li>
               <li>
                 Graphic Design Projects like logo design, graphic web elements, email design, social media posts, ads etc.
@@ -67,8 +55,8 @@ export default function Work() {
             </ul>
           </p>
         </TimelineItem>
-        <img src="https://sealand-e1q0.onrender.com/static/media/logo.fccba55c.svg" alt="" className={classes.jobimg}/>
-        <TimelineItem 
+        <img src="https://sealand-e1q0.onrender.com/static/media/logo.fccba55c.svg" alt="" className={classes.jobimg} />
+        <TimelineItem
           key="002"
           dateText="05/2019 – 08/2019"
           style={{ color: "#EB9647" }}
@@ -78,7 +66,7 @@ export default function Work() {
           <h4>Web Developer and Accesibility Intern</h4>
           <p>
             <h5>My Work:</h5>
-            <ul style={{listStyleType: 'square'}}>
+            <ul style={{ listStyleType: 'square' }}>
               <li>
                 To abide by state and federal law, our team reviewed each new
                 webpage or application for compliance with the World Wide Web
@@ -88,20 +76,16 @@ export default function Work() {
                 </a>
               </li>
               <li>
-                As an intern in Water Quality Division, I was successfully able
-                to remediate over 200 webpages and around 3500 assets which
+                Remediated over 200 webpages and around 3500 assets which
                 includes PDFs, Word Docs and Excel files to be AA compliant.
               </li>
               <li>
-                My one of the Summer internship projects was to create the 11
-                webpages for{" "}
-                <a
+                Built 11     webpages for                <a
                   href="https://www.tceq.texas.gov/permitting/wastewater"
                   target="_blank" rel="noopener noreferrer"
                 >
-                  Pretreatment Team
-                </a>{" "}
-                which was completed successfully.
+                  Pretreatment Team of Water Quality Division.
+                </a>
               </li>
               <li>
                 Compiled the
@@ -111,7 +95,7 @@ export default function Work() {
                 >
                   documentation
                 </a>{" "}
-                on how I was able to achieve the requirements and made the
+                on how I was able to achieve the Accessiblity Requirements and made the
                 resource available throughout the agency.
               </li>
               <li>
@@ -121,8 +105,8 @@ export default function Work() {
             </ul>
           </p>
         </TimelineItem>
-        <div style={{marginLeft:'60px'}}>
-        {/* <img src="https://lh3.googleusercontent.com/proxy/HfCzaClr9R7M-znEdsm2-9kd9Y4b04BhxRXw3cjAOoXua_Tnu0Cbd5Zy6Y6WBht12VHpf5Kfa1XEB_dnd4EhHD4jCY6J" alt="" className={classes.jobimg} /> */}
+        <div style={{ marginLeft: '60px' }}>
+          {/* <img src="https://lh3.googleusercontent.com/proxy/HfCzaClr9R7M-znEdsm2-9kd9Y4b04BhxRXw3cjAOoXua_Tnu0Cbd5Zy6Y6WBht12VHpf5Kfa1XEB_dnd4EhHD4jCY6J" alt="" className={classes.jobimg} /> */}
         </div>
         <TimelineItem style={{ color: "#8CB26C" }}
           key="003"
@@ -133,7 +117,7 @@ export default function Work() {
           <h3>Imaginal Marketing Group | New Orleans, LA</h3>
           <h4>Front End Developer Intern</h4>
           <p>
-            <ul style={{listStyleType: 'square'}}>
+            <ul style={{ listStyleType: 'square' }}>
               <li>
                 Assisted in building websites using WordPress, PHP and MySql
               </li>
@@ -147,8 +131,8 @@ export default function Work() {
             </ul>
           </p>
         </TimelineItem>
-   
-        <TimelineItem  style={{ color: "red " }}
+
+        <TimelineItem style={{ color: "red " }}
           key="004"
           dateText="01/2017 – 05/2017"
           dateInnerStyle={{ background: "red", color: "#fff" }}
@@ -157,7 +141,7 @@ export default function Work() {
           <h4>Graphic Designer</h4>
 
           <p>
-            <ul style={{listStyleType: 'square'}}>
+            <ul style={{ listStyleType: 'square' }}>
               <li>
                 Created Posters, Banners, Flyers for St Cloud State University's
                 events.
@@ -169,9 +153,9 @@ export default function Work() {
             </ul>
           </p>
         </TimelineItem>
-       
+
       </Timeline>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
