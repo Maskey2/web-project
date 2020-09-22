@@ -18,6 +18,7 @@ import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import wit from './../assets/2.jpg'
 import wit2 from './../assets/dxc.jpg'
+import Resume from './../assets/NishmaMaskey.pdf'
 
 const useStyles = makeStyles((theme) => ({
   cardGrid: {
@@ -42,6 +43,19 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "16px",
     },
   },
+  resume: {
+    border: '1px solid black',
+    padding: '10px',
+    width: '30%',
+    textDecoration: 'none',
+    color: 'black'
+  },
+  resumeh: {
+    '&:hover': {
+      textDecoration: 'underline',
+    },
+  },
+
   subtitle: {
     color: "black",
     textAlign: "center",
@@ -95,6 +109,8 @@ export default function Album() {
               <p>I graduated from Southeastern Louisiana University with Bachelors degree in Computer Science with minor in Mathematics.</p>
               <p>I am a Front-End Developer and a Graphic Designer.</p>
               <p>Besides Designing and Coding, I love to watch movies, cook, play guitar and paint!</p>
+              <br />
+              <p className={classes.resumeh}> <a href={Resume} target="_blank" className={classes.resume} > View Resume</a></p>
             </Typography>
           </Grid>
         </Grid>
