@@ -48,9 +48,9 @@ export default function Work() {
                 development trends, search engine optimized responsive websites
               </li>
               <li>Maintaining e-commerce website using 3DCart CMS, assisting in Theme Management, Bootstrap as CSS Framework.</li>
-              <li>Assisting in Digital Marketing tasks like email marketing, using technology like Google Analytics (UA) and Google Tag Manager</li>
+              <li>Assisting in Digital Marketing tasks like email marketing, social media marketing, ads, etc.</li>
               <li>
-                Graphic Design Projects like logo design, graphic web elements, email design, social media posts, ads etc.
+                Graphic Design Projects like logo design, graphic web elements, social media posts, etc.
               </li>
             </ul>
           </p>
