@@ -24,13 +24,13 @@ export default function Web() {
         <div>
             <Container className={classes.cardGrid} maxWidth="lg">
 
-                <p>
+                <p style={{ textAlign: 'center' }}>
                     <a href="https://www.wit-selu.com/" target="_blank" style={{ textAlign: 'center', fontSize: '30px' }}>Women in Technology
                     <img id="myImg" src={wit} alt="Snow" className={classes.web} /></a>
                     <h3 style={{ textAlign: 'center' }}>Women in Technology website for Southeastern LA University.</h3>
 
                 </p>
-
+                <br /><br />
                 <Grid container spacing={4}>
                     <Grid item xs={12} sm={4} md={6} lg={6} className="animate__animated animate__jackInTheBox" >
                         <img src="https://drive.google.com/uc?id=1qK8PUtTLGa1f2XMgg0Av0ZHPhure-0pS" className={classes.graphic} />

@@ -50,6 +50,13 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     backgroundColor: theme.palette.background.paper,
   },
+  tab: {
+    fontSize: '22px',
+    margin: 'auto',
+    [theme.breakpoints.down("sm")]: {
+      fontSize: '14px'
+    }
+  }
 }));
 
 export default function ScrollableTabsButtonAuto() {
@@ -63,8 +70,10 @@ export default function ScrollableTabsButtonAuto() {
   return (
     <div className={classes.root}>
       <Navbar />
-      <AppBar position="static" color="default" style={{ textAlign: 'center' }}>
-        <Tabs
+      <AppBar position="static" color="default" style={{
+        backgroundColor: '#e4e4e4'
+      }}>
+        < Tabs
           value={value} style={{ textAlign: 'center', display: 'flex', alignItems: 'center' }}
           onChange={handleChange}
           indicatorColor="primary"
@@ -74,10 +83,10 @@ export default function ScrollableTabsButtonAuto() {
           aria-label="scrollable auto tabs example"
 
         >
-          <Tab label="Web Development" {...a11yProps(1)} />
-          <Tab label="Graphic Desgin" {...a11yProps(0)} />
+          <Tab label="Web Development" {...a11yProps(1)} className={classes.tab} />
+          <Tab label="Graphic Desgin" {...a11yProps(0)} className={classes.tab} />
         </Tabs>
-      </AppBar>
+      </AppBar >
       <TabPanel value={value} index={0}>
         <Web />
       </TabPanel>
@@ -85,6 +94,6 @@ export default function ScrollableTabsButtonAuto() {
         <Graphic />
       </TabPanel>
       <Footer />
-    </div>
+    </div >
   );
 }

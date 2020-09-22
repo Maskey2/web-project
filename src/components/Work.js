@@ -40,7 +40,7 @@ export default function Work() {
           </h3>
           <h4>Front End Developer</h4>
           <p>
-            <h5>My Work:</h5>
+           
             <ul style={{ listStyleType: 'square' }}>
               <li>
                 Building Monorepo architecture SPAs brand <a href="http://sldrigging.com/" target="_blank" >websites </a> using
@@ -65,7 +65,7 @@ export default function Work() {
           <h3>Texas Commission on Environmental Quality | Austin, TX</h3>
           <h4>Web Developer and Accesibility Intern</h4>
           <p>
-            <h5>My Work:</h5>
+          
             <ul style={{ listStyleType: 'square' }}>
               <li>
                 To abide by state and federal law, our team reviewed each new
