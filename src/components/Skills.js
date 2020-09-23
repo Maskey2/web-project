@@ -81,8 +81,8 @@ export default function Album() {
               />
             </Grid>
             <Grid item xs={6} sm={6} md={4} lg={3} align="center">
-              <img className="animate__animated animate__fadeInDown"
-                src="https://miro.medium.com/max/683/1*HFYKWq92BcXJIdata7d-JQ.png" style={{width:'185px', height:'auto'}}
+              <img className="skill-img animate__animated animate__fadeInDown"
+                src="https://miro.medium.com/max/683/1*HFYKWq92BcXJIdata7d-JQ.png" 
                 alt="Sass"
 
               />
@@ -120,7 +120,7 @@ export default function Album() {
                 alt="boots"
               /></Grid>
             <Grid item xs={6} sm={6} md={4} lg={3} align="center">
-              <img className="skill-img animate__animated animate__zoomIn"
+              <img className="skill-img animate__animated animate__zoomIn" 
                 src="https://www.tutorialspoint.com/css/images/responsive.jpg"
                 alt="responsive"
               />
@@ -137,7 +137,7 @@ export default function Album() {
               <img className="skill-img animate__animated animate__jackInTheBox"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjFBi6UHNBVzafID6sc5dV8wIozs9_1kz8eg&usqp=CAUg"
                 alt="leadership"
-              />>
+              />
           </Grid>
           </Grid>
           {/* <h1 style={{ textAlign: 'center' }}>Certifications</h1>
