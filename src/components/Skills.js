@@ -81,8 +81,8 @@ export default function Album() {
               />
             </Grid>
             <Grid item xs={6} sm={6} md={4} lg={3} align="center">
-              <img className="skill-img animate__animated animate__fadeInDown"
-                src="https://miro.medium.com/max/683/1*HFYKWq92BcXJIdata7d-JQ.png"
+              <img className="animate__animated animate__fadeInDown"
+                src="https://miro.medium.com/max/683/1*HFYKWq92BcXJIdata7d-JQ.png" style={{width:'185px', height:'auto'}}
                 alt="Sass"
 
               />
