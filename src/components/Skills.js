@@ -29,7 +29,7 @@ export default function Album() {
       <main>
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
-          <Grid container spacing={4} style={{ marginBottom: '60px' }}>
+          <Grid container spacing={4} style={{ marginBottom: '70px' }}>
             <Grid item xs={6} sm={6} md={4} lg={3} align="center">
               <img className="skill-img animate__animated animate__lightSpeedInLeft"
                 src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a8630c5f-6e77-4132-ae49-efd987a44020/dake8d1-5a55fb49-3b92-4387-8699-75703019948a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYTg2MzBjNWYtNmU3Ny00MTMyLWFlNDktZWZkOTg3YTQ0MDIwXC9kYWtlOGQxLTVhNTVmYjQ5LTNiOTItNDM4Ny04Njk5LTc1NzAzMDE5OTQ4YS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.berRABM_UVULOx_H4b48aQBV_X1WZZ8Sv2udxNJC8mU"

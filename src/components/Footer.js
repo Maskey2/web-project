@@ -84,13 +84,14 @@ export default function Footer() {
       <Container maxWidth="lg" component="footer" className={classes.footer} >
         <Grid container spacing={2}>
           <Grid item xs={6} sm={3} md={4} lg={4} >
-            <Typography component={'span'} className={classes.headerlink}>
+            {/* <Typography component={'span'} className={classes.headerlink}>
               NM
-              </Typography>
+              </Typography> */}
             <ul>
-              <Link to='/dashboard' className={classes.link} ><li>Dashboard  </li></Link>
-              <a href='/about' className={classes.link}><li>About  </li>  </a>
-              <a href='/contact' className={classes.link}><li>Contact  </li> </a>
+              
+              <Link to='/about' className={classes.link}><li>About  </li>  </Link>
+              <Link to='/skills' className={classes.link}><li>Skills  </li></Link>
+              <a href="mailto:maskeynishma@gmail.com" className={classes.link}><li>Contact  </li> </a>
             </ul>
           </Grid>
           <Grid item xs={6} sm={3} md={4} lg={4}>
@@ -98,7 +99,7 @@ export default function Footer() {
 
             </Typography>
             <ul>
-              <Link to='/skills' className={classes.link}><li>Skills  </li></Link>
+              
               <Link to='/workhistory' className={classes.link}><li>Work History </li></Link>
               <Link to='/portfolio' className={classes.link}><li>Portfolio  </li></Link>
               <Link to='/hobbies' className={classes.link}><li>Hobbies </li></Link>
